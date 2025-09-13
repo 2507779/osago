@@ -2,14 +2,14 @@
 body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;color:#222;background:#f5f5f5;scroll-behavior:smooth;}
 .container{max-width:1200px;margin:0 auto;padding:0 20px;}
 header{background:#ffffff;color:#222;padding:15px 0;position:sticky;top:0;z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1);}
-header .logo{font-size:32px;font-weight:bold;}
+header .logo{font-size:32px;font-weight:bold; background: linear-gradient(90deg, #0072FF, #00C6FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
 header nav ul{display:flex;list-style:none;flex-wrap:wrap;}
 header nav ul li{margin-left:25px;}
 header nav ul li a{color:#222;text-decoration:none;font-weight:500;font-size:18px;transition:0.3s;}
 header nav ul li a:hover{color:#0072FF;}
 .mobile-menu-icon{display:none;font-size:28px;cursor:pointer;color:#0072FF;}
 @media(max-width:768px){header nav ul{display:none;flex-direction:column;width:100%;background:#fff;position:absolute;top:60px;left:0;padding:20px 0;}header nav ul.show{display:flex;}header nav ul li{margin:15px 0;text-align:center;}.mobile-menu-icon{display:block;}}
-.hero{position:relative;text-align:center;padding:80px 20px;overflow:hidden;background:#e3f2fd;}
+.hero{position:relative;text-align:center;padding:80px 20px;overflow:hidden;background: linear-gradient(135deg, #e3f2fd, #ffffff);}
 .hero h2{font-size:42px;color:#222;margin-bottom:15px;}
 .hero p{font-size:18px;color:#333;margin-bottom:30px;}
 .widget-wrapper{max-width:600px;margin:0 auto;background:#fff;padding:25px;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.1);}
@@ -24,3 +24,4 @@ footer{background:#fff;color:#222;text-align:center;padding:20px 0;font-size:16p
 @media(max-width:1024px){.hero h2{font-size:36px;}.hero p{font-size:16px;}.service-card{flex:0 0 45%;}}
 @media(max-width:768px){.hero h2{font-size:28px;}.hero p{font-size:14px;}.service-cards{flex-direction:column;align-items:center;}.service-card{width:90%;}}
 @media(max-width:480px){.hero h2{font-size:24px;}.hero p{font-size:13px;}.btn-wow,.btn-card,.btn-loan{font-size:14px;padding:10px 20px;}}
+
