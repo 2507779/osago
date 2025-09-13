@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloXa-OSAGO.ru — Премиум страхование</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Интеграция модуля ОСАГО -->
+    <script type="text/javascript"    
+        src="https://widgets.inssmart.ru/widgets/b2c-frame.loader.js"
+        data-id="inssmart-b2c"
+        data-origin="https://widgets.inssmart.ru"
+        data-product="/eosago"
+        data-token="cd8907a6-b7bd-5aff-94b2-8b137d9255f2"
+        data-secret="aea87814-08ff-5fa6-b6f3-9f569d3ab4a3">
+    </script>
+
+    <!-- WOW.js для анимаций -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <h1 class="logo"><span class="gradient-text">BloXa-OSAGO.ru</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-icon">&#9776;</div>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+        <h2 class="wow animate__animated animate__fadeInDown">Страхование нового уровня</h2>
+        <p class="wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+            Быстро, удобно и надежно — оформляйте полис ОСАГО и другие виды страховки с премиум-сервисом.
+        </p>
+        <div class="widget-wrapper wow animate__animated animate__fadeIn" data-wow-delay="0.4s">
+            <h3>Оформить ОСАГО прямо сейчас</h3>
+            <div id="insurance-widget"></div>
+        </div>
+
+        <div class="loan-widget wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
+            <p>Не хватило на ОСАГО? Оформи займ мгновенно!</p>
+            <a href="https://l.inssmart.ru/je5x1t" target="_blank" class="btn-loan">Оформить займ</a>
+        </div>
+
+        <a href="#services" class="btn-wow wow animate__animated animate__bounceIn" data-wow-delay="0.6s">Наши услуги</a>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <div class="container services-container">
+        <h2 class="wow animate__animated animate__fadeInUp">Наши премиум-услуги</h2>
+        <div class="service-cards">
+            <div class="service-card wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
+                <h3>ОСАГО</h3>
+                <p>Мгновенное оформление и прозрачные тарифы.</p>
+            </div>
+            <div class="service-card wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                <h3>КАСКО</h3>
+                <p>Полная защита автомобиля от всех рисков.</p>
+            </div>
+            <div class="service-card wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">
+                <h3>Страхование жизни</h3>
+                <p>Надёжная защита для вас и вашей семьи.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container about-container">
+        <h2 class="wow animate__animated animate__fadeInUp">О BloXa-OSAGO</h2>
+        <p class="wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+            Мы объединяем технологичные решения и премиальный сервис для наших клиентов. Простота оформления, мгновенные расчёты и поддержка 24/7.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container contact-container">
+        <h2 class="wow animate__animated animate__fadeInUp">Свяжитесь с нами</h2>
+        <p class="wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">Email: support@bloxosago.ru</p>
+        <p class="wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">Телефон: +7 (800) 555-55-55</p>
+        <p class="wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">Адрес: Москва, ул. Примерная, 10</p>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-container">
+        <p>&copy; 2025 BloXa-OSAGO.ru — Все права защищены</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script>new WOW().init();</script>
+
+</body>
+</html>
